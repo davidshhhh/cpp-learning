@@ -21,3 +21,57 @@ C++ is governed by the ISO C++ standard. There are multiple ISO C++ standards li
 
 Every C++ standard starting with the C++11 onwards is referred to as **"Modern C++."** 
 
+
+--- 
+
+## Comments
+
+single lined comments start with: // 
+
+'''cpp
+
+int main(){
+
+    // this is a comment
+}
+
+
+multi lined comments start and end with: /* */
+
+'''cpp
+
+int main(){
+
+    /* this is a comment
+    with multiple lilnes */
+}
+
+
+--- 
+
+## #include <iostream> explenation
+
+the iostream header is part of the standard library. 
+
+## std::cout 
+
+known as the standard output stream. 
+
+## new line 
+
+to output on a new line we need to output a newline charater : \n
+
+## Complining files 
+
+to compile a C++ file.  we use the basic command:
+
+'''bash 
+g++ fileName.cpp 
+
+this then gives us ./a.out
+
+to compile for  a C++11 standard, we add the -std=c++11 flag:  g++ -std=c++11 main.cpp
+
+to enable warnings we can add the -Wall flag: -Wall
+
+to get a custom executable name, we add the -o flag folled by the name: -o basics
